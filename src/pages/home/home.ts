@@ -11,4 +11,9 @@ export class HomePage {
 
   }
 
+  //untuk buka halaman profile
+  goToProfile(): void{
+      this.navCtrl.push('ProfilePage');
+  }
+
 }
